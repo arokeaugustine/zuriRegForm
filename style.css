@@ -1,0 +1,234 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: #FF7978;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    /* display: flex; */
+    /* justify-content: center;  */
+    margin-top: 70px;
+}
+div{ 
+    /* width: 500px; */
+    height: 500px;
+} 
+#writeupdiv{
+    color: white;
+    /* padding: 15px; */
+    /* border: 2px solid red; */
+    width: 450px;
+}
+#writeupdiv h1{
+    font-size: 50px;
+    
+    font-weight: 700;
+    margin-top: 130px;
+}
+#formdiv{
+    padding: 15px;
+    /* border: 2px solid green; */
+    width: 450px;
+    
+}
+
+#advertp{
+    background-color: #5D54A3;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    box-shadow: -0px 7px 3px 1px #6d6d6d;
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+table{
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+    padding: 20px;
+    /* width: 500px; */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 86%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5D54A3;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 217, 217) ;
+    outline: none;  
+    
+}
+ button{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 15px;
+    background-color: #37CC8A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td p{
+    /* border: 2px solid green; */
+    font-size: 12px;
+    text-align: center;
+    color: rgb(155, 151, 151);
+    font-weight: bold;
+}
+td p a{
+    color: red;
+    text-decoration: none;
+}
+.form-control{
+    position: relative; 
+    text-align: right;
+}
+input{
+    position: relative;
+}
+.form-control i{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    visibility: hidden;
+}
+.form-control small{   
+    visibility: hidden;
+}
+
+.form-control.success input{
+    border-color: #2ecc71;
+}
+.form-control.success i.fa-check-circle{
+    visibility: visible;
+    color: #2ecc71;
+}
+.form-control.error i.fa-check-circle{
+    visibility: hidden;
+
+}
+.form-control.error input{
+    border-color: #e74c3c;
+}
+.form-control.error i.fa-circle-exclamation{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control.success i.fa-circle-exclamation{
+    visibility: hidden;
+    /* color: #e74c3c; */
+}
+.form-control.error small{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+@media only screen and (min-width:375px){
+    section{
+        display: block;
+        margin-top: 0px;
+    }
+    div{
+        width: 80%;
+        /* height: 500px; */
+        text-align: center;
+        margin: auto;
+    }
+    #writeupdiv{
+        width: 80%;
+        padding: 10px;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    #writeupdiv h1{
+        font-size: 35px;
+       
+        font-weight: 700;
+        margin-top: 100px;
+    }
+    #formdiv{
+        padding: 5px;
+        width: 80%;
+        
+    }
+    
+#advertp{
+    margin-top: 10px;
+    padding: 15px 0;
+    color: white;
+    box-shadow: -0px 7px 3px 1px #6d6d6d;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+table{
+    /* border: 2px solid yellow; */
+    /* margin-top: 30px;
+    padding: 20px; */
+    width: 100%;
+    /* background-color: #FFFFFF;
+    border-radius: 5px; */
+}
+input[type=text], input[type=password], input[type=email]{
+    /* padding: 12px 30px; */
+    width: 90%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5D54A3;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 217, 217) ;
+}
+}
+
+@media only screen and (min-width: 995px ){
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    div{
+        width: 500px;
+        height: 500px;
+        margin: 0px 5px;
+    }
+    #writeupdiv{
+        color: white;
+        padding: 15px;
+        /* border: 2px solid red; */
+        width: 450px;
+        margin-top: 50px;
+    }
+    #writeupdiv h1{
+        font-size: 50px;
+        /* border: 2px solid green; */
+        font-weight: 700;
+        margin-top: 130px;
+    }
+    #formdiv{
+        margin-top: 80px;
+        width: 450px;
+    }
+    table{
+        /* border: 2px solid yellow; */
+        margin-top: 30px;
+        padding: 20px;
+        width: 100%;
+        /* background-color: #FFFFFF; */
+        /* border-radius: 5px; */
+    }
+}
