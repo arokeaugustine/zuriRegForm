@@ -54,6 +54,7 @@ table{
     border-radius: 5px;
     text-align: left;
     padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 input[type=text], input[type=password], input[type=email]{
